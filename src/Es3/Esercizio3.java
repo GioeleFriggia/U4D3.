@@ -119,8 +119,8 @@ class Carrello {
 
         // Iterazione attraverso gli articoli nel carrello
         for (ArticoloQuantita articoloQuantita : elencoArticoli) {
-            Articolo articolo = articoloQuantita.getArticolo(); // Ottenimento dell'articolo
-            int quantita = articoloQuantita.getQuantita(); // Ottenimento la quantità dell'articolo
+            Articolo articolo = articoloQuantita.getArticolo(); // Otteniamo dell'articolo
+            int quantita = articoloQuantita.getQuantita(); // Otteniamo la quantità dell'articolo
             double costoArticolo = articolo.getPrezzo() * quantita; // Calcolo del costo totale dell'articolo
             totale += costoArticolo; // Aggiornamento del totale del costo degli articoli nel carrello
 
